@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="AlterEditorAttridutes">
+		<attr name="codeColor" format="color"/>
+		<attr name="deviderColor" format="color"/>
+		<attr name="lineNumberColor" format="color"/>
+		<attr name="basePadding" format="dimension"/>
+    </declare-styleable>
+
+</resources>

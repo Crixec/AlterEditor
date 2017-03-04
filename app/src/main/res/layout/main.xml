@@ -1,0 +1,17 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:scrollbars="none"
+    android:fillViewport="true">
+
+    <crixec.commom.widget.AlterEditor
+		xmlns:editor="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+		android:background="@android:color/transparent"
+        android:layout_height="wrap_content"
+		editor:codeColor="#212121"
+		editor:deviderColor="#FF9947"
+		editor:lineNumberColor="@android:color/black"
+		editor:basePadding="2dp"/>
+
+</ScrollView>
